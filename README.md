@@ -1,4 +1,3 @@
 # Projecte
-holaaaaaaaaaaaa
-Contactes
+Autors: Cristian i
 elsitaa <3
