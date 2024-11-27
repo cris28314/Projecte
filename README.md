@@ -1,3 +1,3 @@
 # Projecte
 Autors: Cristian i
-elsitaa <3
+Elsa
