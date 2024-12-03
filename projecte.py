@@ -25,6 +25,22 @@ agenda_de_contactes.append(contactes3)
 
 print (agenda_de_contactes)
 
+def afegir_contacte():
+    nom = input('Nom del contacte: ')
+    tel = input("Introdueix el número de telèfon (9 dígits): ")
+    email = input("Introdueix l'adreça de correu electrònic: ")
+    if 
+
+def validar_telefon(telefon):
+    return  ((0-9){9}tel) is not None
+    
+def validar_email(email):
+    return([@] not in email)
+def trobar_contacte():
+    return()
+
+
+
 
 print('Benvingut a la app de la gestió de contactes. Que vols fer?')
 print('Opció 1: Afegir un element a la agenda.')
@@ -34,32 +50,32 @@ print('Opció 4: Buscar contacte ')
 
 opcio = int(input('Opció escollida: '))
 while opcio != 0:
-    if opcio == 1:
-        contacte_nou = nom = input('Nom del contacte: ')
-        telefon = input('Numero de telefon: ')
-        gmail = input('Correu electronic: ')
-        if contacte_nou in agenda_de_contactes:
+    if opcio == 1: 
+   
+        if afegir_contacte in agenda_de_contactes:
             print('Aquest contacte ja existeix')
-        if contacte_nou not in agenda_de_contactes:
-            agenda_de_contactes.append(contacte_nou)
+        if afegir_contacte not in agenda_de_contactes:
+            agenda_de_contactes.append(afegir_contacte)
             print('Contacte afegit correctament')
         print(agenda_de_contactes)
 
     elif opcio == 2:
-        contacte_nou = input('Quin contacte vols eliminar?')
-        if contacte_nou not in agenda_de_contactes:
-            print('Aquest contacte no existeix')
-        if contacte_nou in agenda_de_contactes:
-            agenda_de_contactes.remove(contacte_nou)
-            print('Contacte eliminat correctament')
+    def eliminar_contacte():
+        nom = input("Introdueix el nom del contacte que vols eliminar: ")
+    if nom in agenda_de_contactes:
+        del agenda_de_contactes[nom]
+        print(f"Contacte {nom} eliminat amb èxit.")
+    else:
+        print("Aquest contacte no està a la llista.")
         print(agenda_de_contactes)
     elif opcio == 3:
         print(agenda_de_contactes)
     elif opcio == 4:
         cercar_contacte = input('Quin telefon vols buscar')
         if cercar_contacte not in agenda_de_contactes:
-            print('El contacte que vols eliminar no esta a la agenda')
-        if cercar_contacte in agenda_de_contactes:
+            print('El contacte que busques no esta a la agenda')
+        elif cercar_contacte in agenda_de_contactes:
+            print('cercar_contacte')
             
 
     
