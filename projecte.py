@@ -38,7 +38,7 @@ def trobar_contacte():
     for contacte in agenda_de_contactes:
         return contacte
 
-def afegir_contacte():
+def afegir_contacte(agenda_de_contactes):
     nom = input('Nom del contacte: ')
     telefon = input("Introdueix el número de telèfon (9 dígits): ")
     email = input("Introdueix l'adreça de correu electrònic: ")
@@ -51,6 +51,8 @@ def afegir_contacte():
         print('Aquest contacte ja existeix')
     agenda_de_contactes.append({'nom': nom ,'telefon': telefon, 'email': email})
     print(f'contacte {nom} afegit correctament')
+
+    return agenda_de_contactes
 
 def eliminar_contacte():
     nom = input('Quin contacte vols eliminar: ')
@@ -90,19 +92,17 @@ def menu():
         print('Opció 5: sortir')
 
         opcio = int(input('Opció escollida: '))
-            if opcio == 1: 
-                afegir_contacte()
+        if opcio == 1: 
+            agenda_de_contactes = afegir_contacte(agenda_de_contactes)
+        elif opcio == 2:
+            agenda_de_contactes = eliminar_contacte(agenda_de_contactes)
+        elif opcio == 3:
+            mostrar_agenda_de_contactes(agenda_de_contactes)
+        elif opcio == 4:
+            buscar_contacte(agenda_de_contactes)
+        elif opcio == 5:
+            print('Gràcies per utilitzar la nostra aplicació')
+            break
+        else:
+            print('Opció no vàlida. Torna-ho a intentar.')
             
-            elif opcio == 2:
-                eliminar_contacte()
-            
-            elif opcio == 3:
-                mostrar_agenda_de_contactes
-            elif opcio == 4:
-                buscar_contacte
-            elif opcio == 5:
-                print('Gràcies per utilitzar la nostra aplicació')
-                break
-            else:
-                print('Opció no vàlida. Torna-ho a intentar.')
-                
