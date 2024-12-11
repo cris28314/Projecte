@@ -5,6 +5,8 @@
 2. **Interacció amb l'usuari**
    A l'executar el programa ens mostrara diferents opcions com ; contacte afegit amb exit , dades no valides o contacte eliminat amb exit.
 
+   Si l'usuari introdueix una cosa malament li surt un misatje explicant-li.
+
 
 ```python
    
