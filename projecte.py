@@ -1,4 +1,4 @@
-from funcions import afegir_contacte, eliminar_contacte, buscar_contacte, mostrar_agenda_de_contactes, validar_email, validar_telefon
+from funcions import afegir_contacte, eliminar_contacte, buscar_contacte, mostrar_agenda_de_contactes
 
 agenda_de_contactes = []
 

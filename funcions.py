@@ -36,6 +36,7 @@ def eliminar_contacte(agenda_de_contactes):
     print(contacte)
     if contacte:
         agenda_de_contactes.remove(contacte)
+        print(agenda_de_contactes)
     else:
         print(f'El contacte {nom} no existeix')
     print(f'El contacte {nom} eliminat correctament')
