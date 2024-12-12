@@ -8,12 +8,13 @@ def validar_email(email):
         return True
     return False
     
+
 def trobar_contacte(item, valor_item, agenda_de_contactes):
     for contacte in agenda_de_contactes:
         if contacte[item] == valor_item:
             return contacte    
-        else:
-            return False
+    return False
+
 def afegir_contacte(agenda_de_contactes):
     nom = input('Nom del contacte: ')
     telefon = input("Introdueix el número de telèfon (9 dígits): ")
