@@ -1,7 +1,7 @@
 # Projecte
 
 1. **Descripció del projecte:**
-   - Aquest programa ens permetrá gestionar els contactes afegint i eliminant els contactes de les diferents persones , també ens permet buscar contactes en la nostra agenda.
+   - Aquest programa ens permetrà gestionar els contactes afegint i eliminant els contactes de les diferents persones , també ens permet buscar contactes en la nostra agenda.
    
 2. **Interacció amb l'usuari:**
    A l'executar el programa ens mostrara diferents opcions com: Contacte afegit amb exit , dades no valides o contacte eliminat amb exit.
@@ -9,17 +9,11 @@
    Si l'usuari introdueix una cosa malament li surt un misatge comentant que es el que ha introduit malament o ha afegit o eleminiat un          contacte inexistent.
 3.  **Exemples d'us:**
    ```pyhton
-   - Afegir un contacte a la agenda: Contacte (nom) afegit correctament.
-   - Eliminar contacte: Contacte (nom) eliminat correctament.
-   - Mostrar l'agenda: Et mostra tota l'agenda de contacte(varia segons els contactes que hi afegeixis)
-           Nom:Joan, Telefon: 612345678, Email: joan@example.com
-           Nom:Maria, Telefon: 698765432, Email: maria@example.com
-           Nom:Pere, Telefon: 678123456, Email: pere@example.com
-   - Buscar contactes: Introdueix el telefon que vols buscar
+ 
 ```
 4.  **Funcionament del programa:**
+5.  
  ```pyhton
-##Funcionament
 1. En executar el programa, et mostrará les seguents opcions:
    'Benvingut a la app de la gestió de contactes. Que vols fer?')
     ('Opció 1: Afegir un contacte a la agenda.')
@@ -28,7 +22,7 @@
     ('Opció 4: Buscar contacte ')
     ('Opció 5: sortir')
 2. Al escollir una opció et sortirán diferentes funcions:
-   2.1 Opció 1: et demana que afegeixis un programa poant un nom, telèfon i un correu
+   2.1 Opció 1: et demana que afegeixis un programa posant un nom, telèfon i un correu
    2.2 Opció 2: et demana que eliminis un contacte existent en aquesta ageda de contactes
    2.3 Opció 3: et mostrará tota l'agenda amb els contactes afegits i eliminats anteriorment
    2.4 Opció 4: et busca un contacte a aprtir del número de telèfon
