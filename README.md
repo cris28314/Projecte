@@ -13,7 +13,9 @@
  if len(telefon) == 9:
         return True
     return False
+
 #Et busca el contacte que tu vulguis trobar en aquesta llista de contactes
+
   for contacte in agenda_de_contactes:
     if contacte[item] == valor_item:
         return contacte    
@@ -21,6 +23,7 @@
         return False
 
 #T'afegeix el contacte que tu vulguis crear
+
  nom = input('Nom del contacte: ')
     telefon = input("Introdueix el número de telèfon (9 dígits): ")
     email = input("Introdueix l'adreça de correu electrònic: ")
@@ -53,18 +56,7 @@ if not agenda_de_contactes:
     print('Llista de contactes: ')
     for contacte in agenda_de_contactes:
         print(f'Nom:{contacte['nom']}, Telefon: {contacte['telefon']}, Email: {contacte['email']}')
-```python
-   
-   Aquesta funció ens permet afegir un contacte.
-
-
-    Aquesta funció ens permet eliminar un contacte.
-
-
-     Aquesta funció ens permet buscar un contacte.
-
-   
-   Aquesta funció ens permet mostrar la agenda de contactes.
+```
 
 
 5. **Autors**
