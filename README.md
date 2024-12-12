@@ -8,15 +8,22 @@
 
    Si l'usuari introdueix una cosa malament li surt un misatge comentant que es el que ha introduit malament o ha afegit o eleminiat un          contacte inexistent.
 3.  **Exemples d'us:**
+   ```pyhton
    - Afegir un contacte a la agenda: Contacte (nom) afegit correctament.
    - Eliminar contacte: Contacte (nom) eliminat correctament.
-   - Mostrar l'agenda: Et mostra tota l'agenda de contactes.
-   - Nom:Joan, Telefon: 612345678, Email: joan@example.com
-   Nom:Maria, Telefon: 698765432, Email: maria@example.com
-   Nom:Pere, Telefon: 678123456, Email: pere@example.com
-   - Buscar contactes: Introdueix el telefon que vols buscar:
-5.  **Funcionament del programa:**
-6.  **Autors:**
+   - Mostrar l'agenda: Et mostra tota l'agenda de contacte(varia segons els contactes que hi afegeixis)
+           Nom:Joan, Telefon: 612345678, Email: joan@example.com
+           Nom:Maria, Telefon: 698765432, Email: maria@example.com
+           Nom:Pere, Telefon: 678123456, Email: pere@example.com
+   - Buscar contactes: Introdueix el telefon que vols buscar
+```
+4.  **Funcionament del programa:**
+ ```pyhton
+##Funcionament
+1. En executar el programa, et mostrará les seguents opcions:
+
+  
+5.  **Autors:**
    Elsa Gonzalez
    Cristian Sànchez
 
