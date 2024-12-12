@@ -11,6 +11,9 @@
    - Afegir un contacte a la agenda: Contacte (nom) afegit correctament.
    - Eliminar contacte: Contacte (nom) eliminat correctament.
    - Mostrar l'agenda: Et mostra tota l'agenda de contactes.
+   - Nom:Joan, Telefon: 612345678, Email: joan@example.com
+   Nom:Maria, Telefon: 698765432, Email: maria@example.com
+   Nom:Pere, Telefon: 678123456, Email: pere@example.com
    - Buscar contactes: Introdueix el telefon que vols buscar:
 5.  **Funcionament del programa:**
 6.  **Autors:**
