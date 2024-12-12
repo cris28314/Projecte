@@ -9,6 +9,7 @@
 3. **Comentaris en Blocs de Codi**
 ```python
 #Comprovar la llargada del telefon
+
  if len(telefon) == 9:
         return True
     return False
@@ -18,6 +19,7 @@
         return contacte    
     else:
         return False
+
 #T'afegeix el contacte que tu vulguis crear
  nom = input('Nom del contacte: ')
     telefon = input("Introdueix el número de telèfon (9 dígits): ")
@@ -31,7 +33,9 @@
     agenda_de_contactes.append({'nom': nom ,'telefon': telefon, 'email': email})
     print(f'contacte {nom} afegit correctament')
     return agenda_de_contactes
+
 #T'elimina un contacte que ja exiteixi a la llista de contactes
+
 def eliminar_contacte(agenda_de_contactes):
     nom = input('Quin contacte vols eliminar: ')
     contacte = trobar_contacte('nom', nom, agenda_de_contactes)
@@ -40,7 +44,9 @@ def eliminar_contacte(agenda_de_contactes):
     else:
         print(f'El contacte {nom} no existeix')
     print(f'El contacte {nom} eliminat correctament')
+
 #Et mostra tota l'agenda amb els usuaris afegits o eliminats anteriorment(si es que s'ha eliminat o afegit algun)
+
 if not agenda_de_contactes:
         print('No hi ha contactes a la llista')
         return
