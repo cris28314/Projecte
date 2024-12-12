@@ -19,6 +19,9 @@
     else:
         return False
 #T'afegeix el contacte que tu vulguis crear
+ nom = input('Nom del contacte: ')
+    telefon = input("Introdueix el número de telèfon (9 dígits): ")
+    email = input("Introdueix l'adreça de correu electrònic: ")
    if not validar_telefon(telefon):
         print ('El numero de telefon no es valid , ha de tenir 9 digits.')
     if not validar_email(email):
@@ -27,9 +30,23 @@
         print('Aquest contacte ja existeix')
     agenda_de_contactes.append({'nom': nom ,'telefon': telefon, 'email': email})
     print(f'contacte {nom} afegit correctament')
-
     return agenda_de_contactes
-
+#T'elimina un contacte que ja exiteixi a la llista de contactes
+def eliminar_contacte(agenda_de_contactes):
+    nom = input('Quin contacte vols eliminar: ')
+    contacte = trobar_contacte('nom', nom, agenda_de_contactes)
+    if contacte:
+        agenda_de_contactes.remove(contacte)
+    else:
+        print(f'El contacte {nom} no existeix')
+    print(f'El contacte {nom} eliminat correctament')
+#Et mostra tota l'agenda amb els usuaris afegits o eliminats anteriorment(si es que s'ha eliminat o afegit algun)
+if not agenda_de_contactes:
+        print('No hi ha contactes a la llista')
+        return
+    print('Llista de contactes: ')
+    for contacte in agenda_de_contactes:
+        print(f'Nom:{contacte['nom']}, Telefon: {contacte['telefon']}, Email: {contacte['email']}')
 ```python
    
    Aquesta funció ens permet afegir un contacte.
