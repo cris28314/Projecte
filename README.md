@@ -9,7 +9,56 @@
    Si l'usuari introdueix una cosa malament li surt un misatge comentant que es el que ha introduit malament o ha afegit o eleminiat un          contacte inexistent.
 3.  **Exemples d'us:**
    ```pyhton
- 
+ Benvingut a la app de la gestió de contactes. Que vols fer?
+Opció 1: Afegir un contacte a la agenda.
+Opció 2: Eliminar un contacte de la agenda.
+Opció 3: Mostrar la agenda.
+Opció 4: Buscar contacte
+Opció 5: sortir
+Opció escollida: 1
+Nom del contacte: Elsa
+Introdueix el número de telèfon (9 dígits): 654321789
+Introdueix l'adreça de correu electrònic: elsa@gmail.com
+contacte Elsa afegit correctament
+Benvingut a la app de la gestió de contactes. Que vols fer?
+Opció 1: Afegir un contacte a la agenda.
+Opció 2: Eliminar un contacte de la agenda.
+Opció 3: Mostrar la agenda.
+Opció 4: Buscar contacte
+Opció 5: sortir
+Opció escollida: 2
+Quin contacte vols eliminar: Maria
+{'nom': 'Maria', 'telefon': '698765432', 'email': 'maria@example.com'}
+[{'nom': 'Joan', 'telefon': '612345678', 'email': 'joan@example.com'}, {'nom': 'Pere', 'telefon': '678123456', 'email': 'pere@example.com'}, {'nom': 'Elsa', 'telefon': '654321789', 'email': 'elsa@gmail.com'}]
+El contacte Maria eliminat correctament
+Benvingut a la app de la gestió de contactes. Que vols fer?
+Opció 1: Afegir un contacte a la agenda.
+Opció 2: Eliminar un contacte de la agenda.
+Opció 3: Mostrar la agenda.
+Opció 4: Buscar contacte
+Opció 5: sortir
+Opció escollida: 3
+Llista de contactes: 
+Nom:Joan, Telefon: 612345678, Email: joan@example.com
+Nom:Pere, Telefon: 678123456, Email: pere@example.com
+Nom:Elsa, Telefon: 654321789, Email: elsa@gmail.com
+Benvingut a la app de la gestió de contactes. Que vols fer?
+Opció 1: Afegir un contacte a la agenda.
+Opció 2: Eliminar un contacte de la agenda.
+Opció 3: Mostrar la agenda.
+Opció 4: Buscar contacte
+Opció 5: sortir
+Opció escollida: 4
+Quin numero de telefon vols buscar?: 612345678
+Contacte trobat: Nom: Joan, Email: joan@example.com
+Benvingut a la app de la gestió de contactes. Que vols fer?
+Opció 1: Afegir un contacte a la agenda.
+Opció 2: Eliminar un contacte de la agenda.
+Opció 3: Mostrar la agenda.
+Opció 4: Buscar contacte
+Opció 5: sortir
+Opció escollida: 5
+Gràcies per utilitzar la nostra aplicació
 ```
 4.  **Funcionament del programa:**
 5.  
