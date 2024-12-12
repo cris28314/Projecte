@@ -21,9 +21,22 @@
  ```pyhton
 ##Funcionament
 1. En executar el programa, et mostrará les seguents opcions:
-
+   'Benvingut a la app de la gestió de contactes. Que vols fer?')
+    ('Opció 1: Afegir un contacte a la agenda.')
+    ('Opció 2: Eliminar un contacte de la agenda.')
+    ('Opció 3: Mostrar la agenda.')
+    ('Opció 4: Buscar contacte ')
+    ('Opció 5: sortir')
+2. Al escollir una opció et sortirán diferentes funcions:
+   2.1 Opció 1: et demana que afegeixis un programa poant un nom, telèfon i un correu
+   2.2 Opció 2: et demana que eliminis un contacte existent en aquesta ageda de contactes
+   2.3 Opció 3: et mostrará tota l'agenda amb els contactes afegits i eliminats anteriorment
+   2.4 Opció 4: et busca un contacte a aprtir del número de telèfon
+   2.5 Opció 5: surts de l'aplicació i et surt un missatge donant les gràcies per utilitzar aquesta aplicació
+```
   
 5.  **Autors:**
+```python
    Elsa Gonzalez
    Cristian Sànchez
-
+```
